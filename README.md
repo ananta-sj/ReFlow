@@ -45,7 +45,7 @@
 ### Prerequisites
 * Windows 10/11 (NVIDIA GPU recommended for speed)
 * Python 3.10+
-* [FFmpeg](https://ffmpeg.org/download.html) installed and added to System PATH.
+* [FFmpeg](https://ffmpeg.org/download.html) installed and added to System **"PATH"**.
 
 ### Setup
 1.  **Clone the repository**
@@ -104,5 +104,6 @@ Contributions are welcome!
 5.  Open a Pull Request
 
 ## 📄 License
+
 
 Distributed under the MIT License. See `LICENSE` for more information.
