@@ -1,0 +1,24 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*.spec
+
+# --- PyInstaller Build Folders (Huge!) ---
+build/
+dist/
+
+# --- AI Models (Too big for GitHub) ---
+*.pth
+*.pt
+*.bin
+*.onnx
+tts_models/
+
+# --- Virtual Environments ---
+venv/
+env/
+.env
+
+# --- Temporary Outputs ---
+Outputs/
+*.log

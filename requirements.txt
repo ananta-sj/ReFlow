@@ -1,0 +1,16 @@
+customtkinter
+openai-whisper
+# The Heavy Hitters
+torch --index-url https://download.pytorch.org/whl/cu118
+transformers
+TTS
+# Support
+better_profanity
+opencv-python
+onnxruntime
+nudenet==3.4.2
+ffmpeg-python
+pydub
+scipy
+sentencepiece
+protobuf
