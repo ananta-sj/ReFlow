@@ -1,4 +1,4 @@
-# 🎬 ReFlow Studio
+# 🎬 ReFlow
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -107,3 +107,4 @@ Contributions are welcome!
 
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
