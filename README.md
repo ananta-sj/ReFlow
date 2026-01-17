@@ -19,9 +19,11 @@ Most AI tools require expensive cloud subscriptions and compromise your privacy.
 ---
 
 ## 📹 See it in Action
-<video src="https://github.com/ananta-sj/ReFlow-Studio/raw/main/assets/Sample_Vid.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/74bc5f44-84ea-4eed-8f7f-dd43e1e832af
+
+
 
 **✨ New in v0.3.1:** Integrated **Settings Manager**. The app now remembers your custom themes, language preferences, and hardware configurations automatically.
 
