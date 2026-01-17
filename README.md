@@ -20,7 +20,7 @@ Most AI tools require expensive cloud subscriptions and compromise your privacy.
 
 ## 📹 See it in Action
 
-| <video src="assets/demo.mp4" width="100%" controls></video> |
+| <video src="assets/Sample_Vid.mp4" width="100%" controls></video> |
 
 > **✨ New in v0.3.1:** Integrated **Settings Manager**. The app now remembers your custom themes, language preferences, and hardware configurations automatically.
 
