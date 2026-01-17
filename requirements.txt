@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+customtkinter==5.2.2
+openai-whisper
+torch
+torchaudio
+transformers
+TTS
+better-profanity
+nudenet==3.4.2
+opencv-python
+onnxruntime
+ffmpeg-python
+pydub
+scipy
+Pillow
+packaging
+pyinstaller

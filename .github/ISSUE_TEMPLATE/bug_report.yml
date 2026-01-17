@@ -1,0 +1,41 @@
+name: 🐛 Bug Report
+description: Create a report to help us improve ReFlow
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: "I clicked 'Start Processing' and the app crashed..."
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      options:
+        - v0.3 (Dashboard Update)
+        - v0.2b (Progress Bar Update)
+        - v0.1.0 (Alpha)
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU Model & VRAM
+      description: e.g., RTX 3060 (12GB) or GTX 1650 (4GB)
+      placeholder: RTX 4090
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any text from the console window here.
+      render: shell

@@ -1,0 +1,8 @@
+models/
+dist/
+build/
+*.exe
+*.bin
+*.spec
+__pycache__/
+user_settings.json
