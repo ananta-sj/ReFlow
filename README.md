@@ -19,10 +19,9 @@ Most AI tools require expensive cloud subscriptions and compromise your privacy.
 ---
 
 ## 📹 See it in Action
+<video src="assets/Sample_Vid.mp4" width="100%" controls></video> 
 
-| <video src="assets/Sample_Vid.mp4" width="100%" controls></video> |
-
-> **✨ New in v0.3.1:** Integrated **Settings Manager**. The app now remembers your custom themes, language preferences, and hardware configurations automatically.
+**✨ New in v0.3.1:** Integrated **Settings Manager**. The app now remembers your custom themes, language preferences, and hardware configurations automatically.
 
 ---
 
@@ -47,24 +46,33 @@ Our **Split Installer** handles the 5GB+ AI model weights by breaking them into 
 2. Ensure all files are in the same folder.
 3. Run the `.exe` and follow the setup wizard.
 
-### 🛠️ Developer Setup
-```bash
-# Clone the repository
-git clone [https://github.com/ananta-sj/ReFlow-Studio.git](https://github.com/ananta-sj/ReFlow-Studio.git)
-cd ReFlow-Studio
 
-# Install dependencies
-pip install -r requirements.txt
+## 🛠️ Developer Setup
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/ananta-sj/ReFlow.git](https://github.com/ananta-sj/ReFlow.git)
+    cd ReFlow   
+    ```
 
-# Download required AI weights
-python download_models.py
+2.  **Install Dependencies**
+    *(Note: Some AI models require specific PyTorch versions)*
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-# Launch the Studio
-python main.py
+3. **Download required AI weights**
+    ```bash
+    python download_models.py
+    ```
 
-### Part 3: Roadmap, Tech, and License
-```markdown
+4.  **Run the App**
+    ```bash
+    python main.py
+    ```
+
 ---
+
+## Tech Stack & Roadmap
 
 ## 🛠️ The Tech Stack
 * **UI Framework:** CustomTkinter (Modern High-DPI UI)
@@ -75,17 +83,18 @@ python main.py
 ---
 
 ## 🗺️ Project Roadmap
-- [x] **v0.2:** Whisper ASR integration & Hindi Translation.
-- [x] **v0.3:** NudeNet Computer Vision blurring.
-- [x] **v0.3.1:** UI Persistence & Split-Binary Installer.
+- **v0.2:** Whisper ASR integration & Hindi Translation.
+- **v0.3:** NudeNet Computer Vision blurring.
+- **v0.3.1:** UI Persistence & Split-Binary Installer.
 
 ---
 
 ## 🎨 Interface
 | Light Theme | Dark Theme |
 | :---: | :---: |
-| ![Light Mode](assets/light_theme.png) | ![Dark Mode](assets/dark_theme.png) |
+| ![Light Mode](assets/screenshot_light.png) | ![Dark Mode](assets/screenshot_dark.png) |
 
+---
 
 ## 🤝 Contributing
 ReFlow is an open-source project. Whether you are fixing bugs, adding new languages, or improving the UI, your help is welcome! 
