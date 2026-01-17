@@ -19,7 +19,7 @@ Most AI tools require expensive cloud subscriptions and compromise your privacy.
 ---
 
 ## 📹 See it in Action
-<video src="https://github.com/YOUR_USERNAME/ReFlow-Studio/raw/main/assets/Sample_Vid.mp4" width="100%" controls>
+<video src="https://github.com/ananta-sj/ReFlow-Studio/raw/main/assets/Sample_Vid.mp4" width="100%" controls>
   Your browser does not support the video tag.
 </video>
 
